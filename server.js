@@ -6,7 +6,7 @@ app.use(express.json());
 
 // CORS 설정 - "정확하게" 작성한 버전.
 app.use(cors({
-  origin: ["http://localhost:3000", "http://여러분들IPv4개방주소"],  // 예: http://3.37.194.186
+  origin: ["http://localhost:3000", "http://3.37.194.186"],  // 예: http://3.37.194.186
   methods: ["GET", "POST"],
   credentials: true
 }));
